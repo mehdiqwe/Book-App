@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 80px;
+    background-color: hsl(0, 0%, 19%);
+    border-radius: 10px;
+}
+
+.header h1 {
+    font-size: 1.3rem;
+    color: #eaeaea;
+}
+
+.header a {
+    text-decoration: none;
+    color: #6554f2;
+    font-weight: 500;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 80px;
+    background-color: #303030;
+    border-radius: 10px;
+}
