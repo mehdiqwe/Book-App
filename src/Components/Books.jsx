@@ -11,7 +11,6 @@ function Books() {
     const [books, setBooks] = useState(bookData)
     const [liked, setLiked] = useState([])
     const [search, setSearch] = useState("")
-    console.log(search)
 
     const addHandler = (data, status) => {
         if(status) {

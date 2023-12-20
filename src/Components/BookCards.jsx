@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useState } from "react";
 
 import { FaHeart } from "react-icons/fa";
@@ -12,6 +13,7 @@ function BookCards({book, addHandler}) {
         addHandler(book, liked)
         setLiked(liked => !liked)
     }
+  
   return (
     <div className={Styles.card}>
         <img src={image} alt={title} />
